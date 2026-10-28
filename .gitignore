@@ -1,0 +1,22 @@
+
+target/
+.settings/
+.classpath
+.project
+*.class
+*.war
+.metadata/
+
+# Environment and secret files
+.env
+.env.*
+!.env.example
+**/campus-feedback.properties
+**/application.properties
+**/application-*.properties
+
+# IDE and operating system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
